@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "*"
+boto3 = "*"
+mysql-connector-python = "*"
+pandas = "*"
+matplotlib = "*"
+pydeck = "*"
+pexpect = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
